@@ -150,14 +150,11 @@ export default function AboutPage() {
             <h2 className="text-4xl font-bold text-center mb-12">Our Story</h2>
             <div className="prose prose-lg mx-auto text-gray-600">
               <p className="text-xl leading-relaxed mb-6">
-                RefEd Bridge was founded in 2020 by Dr. Amina Kone, a former refugee who overcame incredible odds to
-                earn her PhD in Education Policy. Having experienced firsthand the barriers that prevent refugee
+                RefEd Bridge was founded in 2025 by Olivier Ishimwe, a former refugee who is currently living in Nyabiheke Refugee Camp. Having experienced firsthand the barriers that prevent refugee
                 students from accessing higher education, she was determined to create a solution.
               </p>
               <p className="text-lg leading-relaxed mb-6">
-                What started as a small pilot program in Kenya has grown into a comprehensive platform serving refugee
-                students across 25 African countries. Our approach combines cutting-edge technology with human-centered
-                design to create an educational ecosystem that truly serves the needs of displaced populations.
+                
               </p>
               <p className="text-lg leading-relaxed mb-6">
                 Today, RefEd Bridge partners with universities, NGOs, and governments to provide not just education, but
