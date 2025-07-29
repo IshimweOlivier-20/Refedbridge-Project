@@ -16,29 +16,24 @@ const stats = [
 
 const team = [
   {
-    name: "Dr. Amina Kone",
+    name: "Olivier Ishimwe",
     role: "Founder & CEO",
     image: "/placeholder.svg?height=300&width=300",
-    bio: "Former refugee from Côte d'Ivoire, now a PhD in Education Policy. Passionate about breaking barriers to higher education.",
+    bio: "Former refugee, currently pursuing his Bachelor in Software Engineering at ALU",
   },
   {
-    name: "Jean-Baptiste Uwimana",
+    name: "Mwiseneza Heritier",
     role: "Head of Programs",
     image: "/placeholder.svg?height=300&width=300",
     bio: "Education specialist with 15+ years experience in refugee education across East Africa.",
   },
   {
-    name: "Sarah Mitchell",
+    name: "Uwase Aline",
     role: "Technology Director",
     image: "/placeholder.svg?height=300&width=300",
     bio: "Former Google engineer dedicated to using technology for social impact and educational equity.",
   },
-  {
-    name: "Dr. Hassan Al-Rashid",
-    role: "Academic Advisor",
-    image: "/placeholder.svg?height=300&width=300",
-    bio: "Professor of International Education, specializing in refugee and displaced populations.",
-  },
+  
 ]
 
 const values = [
