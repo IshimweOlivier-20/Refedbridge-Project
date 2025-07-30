@@ -85,11 +85,11 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-gray-400" />
-                <span className="text-gray-300 text-sm">info@refedbridge.org</span>
+                <span className="text-gray-300 text-sm">ishimweolivier175@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-gray-400" />
-                <span className="text-gray-300 text-sm">+1 (555) 123-4567</span>
+                <span className="text-gray-300 text-sm">+250 790089957</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-gray-400" />
@@ -101,7 +101,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 RefEd Bridge. All rights reserved. Empowering refugee education worldwide.
+            © 2025 RefEd Bridge. All rights reserved. Empowering refugee education worldwide.
           </p>
         </div>
       </div>
