@@ -56,25 +56,41 @@ export default function LoginPage() {
   const router = useRouter()
 
   const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault()
-    if (!selectedRole || !email || !password) {
-      alert("Please fill in all fields and select a role")
-      return
+  e.preventDefault()
+  if (!selectedRole || !email || !password) {
+    alert("Please fill in all fields and select a role")
+    return
+  }
+
+  setIsLoading(true)
+
+  setTimeout(() => {
+    const selectedRoleData = roles.find((role) => role.id === selectedRole)
+
+    if (selectedRoleData) {
+      if (selectedRole === "admin") {
+        // Admin: Check specific credentials
+        if (email === "ishimweolivier175@gmail.com" && password === "Over123") {
+          console.log("Logging in as Admin")
+          router.push(selectedRoleData.dashboard)
+        } else {
+          alert("Invalid email or password for Administrator")
+        }
+      } else {
+        // Learner, Teacher, Mentor: Check demo credentials
+        if (email === "demo@refedbridge.org" && password === "demo123") {
+          console.log(`Logging in as ${selectedRoleData.name}`)
+          router.push(selectedRoleData.dashboard)
+        } else {
+          alert(`Invalid email or password for ${selectedRoleData.name}`)
+        }
+      }
     }
 
-    setIsLoading(true)
+    setIsLoading(false)
+  }, 1000)
+}
 
-    // Simulate login process
-    setTimeout(() => {
-      const selectedRoleData = roles.find((role) => role.id === selectedRole)
-      if (selectedRoleData) {
-        // In a real app, you would validate credentials and set auth state
-        console.log("Logging in as:", selectedRoleData.name)
-        router.push(selectedRoleData.dashboard)
-      }
-      setIsLoading(false)
-    }, 1000)
-  }
 
   const selectedRoleData = roles.find((role) => role.id === selectedRole)
 
