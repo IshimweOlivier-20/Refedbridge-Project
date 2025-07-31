@@ -85,10 +85,9 @@ npm start
 This will launch the React app on http://localhost:3000.
 ````
 📂 Folder Structure Overview
-csharp
-Copy
-Edit
+
 Refedbridge-Project/
+
 ├── backend/
 │   ├── controllers/       # Logic for routes
 │   ├── models/            # MongoDB schemas
@@ -116,8 +115,9 @@ Refedbridge-Project/
 
 
 🤝 Contributing
-Contributions are welcome! Here's how you can help:
 
+Contributions are welcome! Here's how you can help:
+```bash
 Fork the repository
 
 Create your feature branch: git checkout -b feature/my-feature
@@ -127,14 +127,18 @@ Commit your changes: git commit -m 'Add my feature'
 Push to the branch: git push origin feature/my-feature
 
 Open a Pull Request
-
+````
 🧾 License
 This project is open-source and available under the MIT License.
 
 💬 Contact
+
 o.ishimwe@alustudent.com
+
 0790089957 
-Created by Olivier Ishimwe
+
+Created with ❤ by Olivier Ishimwe
+
 If you'd like to get in touch, open an issue or connect on GitHub.
 
 “Technology should lift people up—not leave them behind. Refedbridge is one small step toward digital inclusion for those who need it most.”
