@@ -66,7 +66,6 @@ npm install
 4. 🔐 Configure Environment Variables
 In the /backend folder, create a .env file and add the following:
 
-
 5. 🚀 Run the Application
 
 The Application is now live at   https://refedbridge-project-m9t2.vercel.app/
@@ -84,7 +83,7 @@ Open another terminal:
 cd frontend
 npm start
 This will launch the React app on http://localhost:3000.
-
+````
 📂 Folder Structure Overview
 csharp
 Copy
